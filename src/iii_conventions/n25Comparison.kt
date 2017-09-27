@@ -15,8 +15,4 @@ fun todoTask25(): Nothing = TODO(
     references = { date: MyDate, comparable: Comparable<MyDate> -> }
 )
 
-fun task25(date1: MyDate, date2: MyDate): Boolean {
-    todoTask25()
-//    return date1 < date2
-}
-
+fun task25(date1: MyDate, date2: MyDate) = date1 < date2
